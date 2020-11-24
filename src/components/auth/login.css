@@ -1,0 +1,58 @@
+/* Media queries */
+
+@media (max-width: 766px) {
+    .login-left{
+      display: none;
+    }
+    
+  }
+/* Button */
+
+.color-blue{
+    background-color: #13244E !important;
+    color: #fff;
+}
+
+/* Login Layout */
+.login{
+    height: 100%;
+    max-width: 1200px;
+}
+.login-left{
+    background-color: #000000;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.login-right{
+    padding: 2rem;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.brand-container{
+    display: flex;
+}
+
+.brand-container img{
+    margin-right: 0.6rem;
+}
+
+.brand-container p{
+    margin-top: 0.7rem;
+    color: #5A99C4;
+}
+
+.login-right-content{
+    padding: 5rem 2rem;
+}
+.login-right-content h2{
+    font-weight: bold;
+    font-size: 34px;
+    padding: 1.2rem 0rem;
+}
+.login-right-content a{
+
+    text-align: center;
+}
+
